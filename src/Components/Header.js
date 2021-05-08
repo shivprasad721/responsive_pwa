@@ -15,7 +15,7 @@ const Arrow = styled.div`
         padding:17px 20px 17px 20px; 
         font-size:29px ;
         &:hover{
-            opacity:70%;
+            opacity:0.7;
         }
     
 `
@@ -26,7 +26,7 @@ const Header =()=> {
             <div className="ifb-nav">
                 <div className="ifb-menu">
                     <div>
-                        <a><Arrow><FontAwesomeIcon icon={faArrowLeft} /></Arrow></a>                        
+                        <a href=""><Arrow><FontAwesomeIcon icon={faArrowLeft} style={{color:"#000000"}}/></Arrow></a>                        
                     </div>
                     <div className="dotmenu">
                         <img  src={dotmenu} />
