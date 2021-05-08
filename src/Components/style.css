@@ -1,0 +1,185 @@
+/*Header Page style start */
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
+.ifb-nav{
+    background-color: #ffffff;
+    padding:47px 60px 47px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.ifb-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.arrow:hover{
+    opacity: 70%;
+}
+.dotmenu{
+    padding:21px 22px 21px 22px;
+    background: #777777 0% 0% no-repeat padding-box;
+    box-shadow: 0px 11px 24px #00000029;
+    border-radius: 16px;
+    opacity: 1;
+    margin-left: 23px;  
+}
+.dotmenu:hover{
+    opacity:80%;
+}
+.dotmenu img{
+    width: 23px;
+    height: 23px;
+}
+.ifb-logo{
+    width: 165px;
+    height: 65px;
+}
+.ifb-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Landing Page Style Start-- */
+
+.ifb-container{
+    background-color: #E7DFD4;
+}
+.ifb-intro{
+    padding-bottom: 10px;
+}
+.ifb-intro h2 {
+    padding-top: 134px;
+    font-size: 64px;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    font-weight: 200;
+    font-family: "adobe-clean", sans-serif;
+    text-align: center;
+
+}
+
+.ifb-intro p{
+    padding-top: 10px;
+    font-size: 38px;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    font-family: "adobe-clean", sans-serif;
+    text-align: center;
+
+}
+.ifb-landing-img{
+    padding-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ifb-img-block{
+    width: 70%;
+}
+.ifb-img-block img{
+    width: 50%;
+    padding-bottom: 10px;
+    opacity: 1;
+}
+.ifb-img-block img:hover{
+    
+    opacity:80%;
+}
+.ifb-bottom{
+    padding-bottom: 50px;
+}
+.ifb-bottom h2{
+    font-size: 38px;
+    font-weight: 50;
+    font-family: "adobe-clean", sans-serif;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.ifb-bottom h1{
+    text-align: center;
+    font-size: 58px;
+    font-family: "adobe-clean", sans-serif;
+    color: #959595;
+    opacity: 1;
+    letter-spacing: 0px;
+    font-weight: 10;
+
+}
+.ifb-bottom h1 div{
+    font-size: 91px;
+    font-family: "adobe-clean", sans-serif;
+    font-weight: 10;
+    color:black;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) {
+    .ifb-intro h2{
+        font-size: 40px;
+    }
+    .ifb-intro p{
+        font-size: 18px;
+    }
+    .ifb-bottom h2{
+        font-size:18px;
+    }
+    .ifb-bottom h1{
+        font-size: 32px;
+    }
+    .ifb-bottom h1 div{
+        font-size: 52px;
+    }
+  }
+  @media (min-width: 576px) {
+    .ifb-intro h2{
+        font-size: 50px;
+    }
+    .ifb-intro p{
+        font-size: 28px;
+    }
+    .ifb-bottom h2{
+        font-size:28px;
+    }
+    .ifb-bottom h1{
+        font-size: 48px;
+    }
+    .ifb-bottom h1 div{
+        font-size: 81px;
+    }
+  }
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    .ifb-intro h2{
+        font-size: 64px;
+    }
+    .ifb-intro p{
+        font-size: 38px;
+    }
+    .ifb-bottom h2{
+        font-size:38px;
+    }
+    .ifb-bottom h1{
+        font-size: 58px;
+    }
+    .ifb-bottom h1 div{
+        font-size: 91px;
+    }
+  }
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    
+  }
+  /* X-Large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+  }
+  /* XX-Large devices (larger desktops, 1400px and up)*/
+  @media (min-width: 1400px) {
+  }
+  
